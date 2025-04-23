@@ -51,7 +51,7 @@
 
 body {
   color: #777777;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Pretendard',"Poppins", sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.625em;
@@ -118,21 +118,12 @@ a, a:focus, a:hover {
 
 h1, h2, h3,
 h4, h5, h6 {
-  font-family: "Poppins", sans-serif;
+  font-family:  'Pretendard',"Poppins", sans-serif;
   color: #222222;
   line-height: 1.2em !important;
   margin-bottom: 0;
   margin-top: 0;
   font-weight: 600;
-}
-
-.h1, .h2, .h3,
-.h4, .h5, .h6 {
-  margin-bottom: 0;
-  margin-top: 0;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  color: #222222;
 }
 
 h1, .h1 {
@@ -1890,7 +1881,8 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
 }
 
-#header.header-scrolled nav li a{
+#header.header-scrolled nav li a,
+#header.header-scrolled .logo h2{
   color: white;
 }
 
@@ -1915,40 +1907,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 673px) {
-  #logo {
-    margin-left: 20px;
-  }
-}
 
-#header #logo h1 {
-  font-size: 34px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 700;
-  letter-spacing: 3px;
-}
 
-#header #logo h1 a, #header #logo h1 a:hover {
-  color: #fff;
-  padding-left: 10px;
-  border-left: 4px solid #869cac;
-}
 
-#header #logo img {
-  padding: 0;
-  margin: 0;
-}
-
-@media (max-width: 768px) {
-  #header #logo h1 {
-    font-size: 28px;
-  }
-  #header #logo img {
-    max-height: 40px;
-  }
-}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -2001,7 +1962,7 @@ h1, h2, h3, h4, h5, h6 {
   content: "\f107";
   position: absolute;
   right: 15px;
-  font-family: FontAwesome;
+  font-family:  'Pretendard';
   font-style: normal;
   font-weight: normal;
 }
@@ -2291,7 +2252,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-  background: url(../img/banner.jpg) center no-repeat;
+  background: url(../img/banner2.png) center no-repeat;
   background-size: cover;
 }
 
@@ -2310,17 +2271,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .banner-content {
   margin-top: -250px;
-  text-shadow: 3px 3px 1px rgba(211, 211, 211, 0.3);
-}
+  }
 
 .banner-content h1 {
-  color: #fff;
- 
+  color: #021d33;
   font-size: 60px;
   font-weight: 600;
   line-height: 1em;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.banner-content h4,
+.banner-content h3{
+  color: rgba(2, 29, 51, 0.7);
 }
 
 .banner-content h1 span {

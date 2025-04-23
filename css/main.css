@@ -1987,7 +1987,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 8px 0px 8px;
   text-decoration: none;
   display: inline-block;
-  color: #15223a;
+  color: #869cac;
  font-weight: 400;
   font-size: 12px;
   text-transform: uppercase;
@@ -2252,7 +2252,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-  background: url(../img/banner2.png) center no-repeat;
+  background: url(../img/banner.jpg) center no-repeat;
   background-size: cover;
 }
 
@@ -2264,7 +2264,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 768px) {
   .banner-area {
-    background: url(../img/header-bg.jpg);
     background-position: 50% 90% 50% 50%;
   }
 }
@@ -2390,7 +2389,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .menu-area {
-  background: url(../img/menu-bg.jpg) center;
   background-size: cover;
 }
 
@@ -2500,7 +2498,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .footer-area {
   color: #869cac;
   /* padding-top: 220px; */
-  background: url(../img/footer-bg.jpg) center;
+  background: url(../img/footer-bg1.jpg) center;
   background-size: cover;
 }
 
@@ -2725,5 +2723,3 @@ body.mobile-nav-active #mobile-nav-toggle {
 .switch-wrap p {
   margin: 0;
 }
-
-
